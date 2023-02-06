@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="344.666588">
+<testcase classname="" name="_2" time="56.930371">
+<system-out><![CDATA[Given User have to enter user name and password in facebook.................passed
+And User have to click forget password......................................passed
+When User have to enter email or phoneno....................................passed
+Then User have to click the search button...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="54.612023">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter "java123@gmail.com" and "java123"...........................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_3" time="43.157291">
+<failure message="org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'KAMALLAP', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: driver.version: RemoteWebDriver&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;&#10;&#9;at org.base.BaseClass.loadUrl(BaseClass.java:35)&#13;&#10;&#9;at org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)&#13;&#10;&#9;at ✽.user have enter into facebook page in chrome browser(file:src/test/resources/FeatureFile/Login.feature:6)&#13;&#10;Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712&#13;&#10;&#9;at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)&#13;&#10;&#9;at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)&#13;&#10;&#9;at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)&#13;&#10;&#9;at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)&#13;&#10;&#9;at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)&#13;&#10;&#9;at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;&#10;&#9;at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;&#10;&#9;at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;&#10;&#9;at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)&#13;&#10;&#9;at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)&#13;&#10;&#9;at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)&#13;&#10;&#9;at okhttp3.RealCall.execute(RealCall.java:77)&#13;&#10;&#9;at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)&#13;&#10;&#9;at org.base.BaseClass.loadUrl(BaseClass.java:35)&#13;&#10;&#9;at org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Method.invoke(Unknown Source)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)&#13;&#10;&#9;at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:50)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:46)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:50)&#13;&#10;&#9;at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;&#10;&#9;at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)&#13;&#10;&#9;at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)&#13;&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;&#10;&#9;at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)&#13;&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;&#10;&#9;at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;&#10;Caused by: java.net.ConnectException: Connection refused: connect&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)&#13;&#10;&#9;at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)&#13;&#10;&#9;at java.net.AbstractPlainSocketImpl.connect(Unknown Source)&#13;&#10;&#9;at java.net.PlainSocketImpl.connect(Unknown Source)&#13;&#10;&#9;at java.net.SocksSocketImpl.connect(Unknown Source)&#13;&#10;&#9;at java.net.Socket.connect(Unknown Source)&#13;&#10;&#9;at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)&#13;&#10;&#9;at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)&#13;&#10;&#9;... 62 more&#13;&#10;"><![CDATA[Given user have enter into facebook page in chrome browser..................failed
+When User enter "selenium123@gmail.com" and "sele123".......................skipped
+And User click the Login button.............................................skipped
+Then User should be in invalid credential page..............................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KAMALLAP', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.base.BaseClass.loadUrl(BaseClass.java:35)
+	at org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)
+	at ✽.user have enter into facebook page in chrome browser(file:src/test/resources/FeatureFile/Login.feature:6)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.base.BaseClass.loadUrl(BaseClass.java:35)
+	at org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	... 62 more
+]]></failure>
+</testcase>
+<testcase classname="" name="_4" time="33.556373">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter "phython123@gmail.com" and "phyton123"......................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_5" time="44.738708">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter "jira123@gmail.com" and "jira123"...........................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_6" time="27.135524">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter invalid user name and invalid password......................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_7" time="37.324583">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter valid user name and invalid password........................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="22.152358">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter invalid user name and invalid password......................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_3" time="25.059357">
+<system-out><![CDATA[Given user have enter into facebook page in chrome browser..................passed
+When User enter valid user name and invalid password........................passed
+And User click the Login button.............................................passed
+Then User should be in invalid credential page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

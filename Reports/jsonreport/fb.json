@@ -1,0 +1,1439 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-06T08:34:16.713Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1644100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 248900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 442200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13101170900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "To validate forgot password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 2224114100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 94200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 113900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 22382750200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to enter user name and password in facebook",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_user_name_and_password_in_facebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17141566000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to click forget password",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_forget_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1907659300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to enter email or phoneno",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_phoneno()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109389800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User have to click the search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_the_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPass"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate forgotten password functionality page in Facebook",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Forgetten.feature",
+    "tags": [
+      {
+        "name": "@ForgotPass",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-06T08:35:13.844Z",
+        "before": [
+          {
+            "result": {
+              "duration": 152400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 117900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 81800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4617366400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "",
+        "description": "To validate login by using different credentials",
+        "id": ";;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 12935580500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 287300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 308500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 288300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 304100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22643938800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 614386200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"java123@gmail.com\" and \"java123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"java123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13644102300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102063700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:36:08.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 303600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 192600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 261300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5315673700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "",
+        "description": "To validate login by using different credentials",
+        "id": ";;;3",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027KAMALLAP\u0027, ip: \u0027192.168.1.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat org.base.BaseClass.toQuit(BaseClass.java:62)\r\n\tat org.stepdefinition.hook.aft(hook.java:57)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)\r\n\tat cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:50)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\t... 42 more\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.PlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.SocksSocketImpl.connect(Unknown Source)\r\n\tat java.net.Socket.connect(Unknown Source)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\r\n\t... 62 more\r\n",
+              "duration": 4597659600,
+              "status": "failed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 247100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 186900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 253300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027KAMALLAP\u0027, ip: \u0027192.168.1.103\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.loadUrl(BaseClass.java:35)\r\n\tat org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)\r\n\tat ✽.user have enter into facebook page in chrome browser(file:src/test/resources/FeatureFile/Login.feature:6)\r\nCaused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:5712\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)\r\n\tat okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.base.BaseClass.loadUrl(BaseClass.java:35)\r\n\tat org.stepdefinition.StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser(StepDefinition.java:31)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\nCaused by: java.net.ConnectException: Connection refused: connect\r\n\tat java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)\r\n\tat java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)\r\n\tat java.net.AbstractPlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.PlainSocketImpl.connect(Unknown Source)\r\n\tat java.net.SocksSocketImpl.connect(Unknown Source)\r\n\tat java.net.Socket.connect(Unknown Source)\r\n\tat okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)\r\n\tat okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)\r\n\t... 62 more\r\n",
+              "duration": 33042416100,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1318000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enter \"selenium123@gmail.com\" and \"sele123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"sele123\"",
+                  "offset": 39
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1364900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1606900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:36:51.736Z",
+        "before": [
+          {
+            "result": {
+              "duration": 566200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 253300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 221500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2896937600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "",
+        "description": "To validate login by using different credentials",
+        "id": ";;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 5137844100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 269900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 255800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 173800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16694214800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 408065800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"phython123@gmail.com\" and \"phyton123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"phython123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"phyton123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112951300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8286520600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:37:25.295Z",
+        "before": [
+          {
+            "result": {
+              "duration": 261100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 345500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 235300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2801110200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "",
+        "description": "To validate login by using different credentials",
+        "id": ";;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 20041062000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 141900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 91100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 69200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16161041000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 385037400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"jira123@gmail.com\" and \"jira123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jira123@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"jira123\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enter_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109006500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5222323400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:38:10.035Z",
+        "before": [
+          {
+            "result": {
+              "duration": 184800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 144400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 102000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4435390300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "",
+        "description": "\tTo validate Login using invalid username and password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 854886600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16077880700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 322387400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter invalid user name and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_user_name_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226856900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5208204300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:38:37.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 79700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 66600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2921021400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "",
+        "description": "\tTo validate Login using valid username and password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 1578225500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 90400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 61500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 92600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25195346900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382971900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User enter valid user name and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_valid_user_name_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101714300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7137183900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate the Login functionality of facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14050490700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:39:14.496Z",
+        "before": [
+          {
+            "result": {
+              "duration": 408000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 493100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 206100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3039823700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "",
+        "description": "    To validate Login using invalid username and password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 957829300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 111300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 180800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 88800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 383024300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enter invalid user name and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_invalid_user_name_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108378800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3587560200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15704607900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user have enter into facebook page in chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_enter_into_facebook_page_in_chrome_browser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-06T08:39:36.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 330800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 281000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 289800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4207556700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.bef()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "",
+        "description": "    To validate Login using valid username and password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 1136959000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft()"
+            }
+          },
+          {
+            "result": {
+              "duration": 82600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft4()"
+            }
+          },
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft3()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft2()"
+            }
+          },
+          {
+            "result": {
+              "duration": 61500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hook.aft1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 342084300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter valid user name and invalid password",
+            "match": {
+              "location": "StepDefinition.user_enter_valid_user_name_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102088000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click the Login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3556663100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should be in invalid credential page",
+            "match": {
+              "location": "StepDefinition.user_should_be_in_invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To validate the Login functionality of facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/LoginTag.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
