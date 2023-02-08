@@ -64,7 +64,7 @@ public class BaseClass {
 
 System.out.println("Prajit Updated");
 System.out.println("Sajith Updated");
-System.out.println("Prajit Updated");
+
 
 	}
 	
