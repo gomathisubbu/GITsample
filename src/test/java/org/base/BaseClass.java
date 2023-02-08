@@ -60,10 +60,9 @@ public class BaseClass {
 
 	public static void toQuit() {
 		driver.quit();
+	System.out.println("Prajit Updated");
 	}
-	public static void Quit() {
-		driver.quit();
-	}
+	
 	public static void toPerformMoveElement(WebElement element) {
 
 		a = new Actions(driver);
