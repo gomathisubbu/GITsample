@@ -61,6 +61,7 @@ public class BaseClass {
 	public static void toQuit() {
 		driver.quit();
 	System.out.println("Prajit Updated");
+	System.out.println("New line added by Prajit");
 	}
 	
 	public static void toPerformMoveElement(WebElement element) {
